@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="publications">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Publications from Mohit Chamania">
+    <meta name="author" content="Mohit Chamania">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mohit Chamania - Publications</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-custom-theme.css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" >
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">  -->
+    <script src="./js/angular.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/publications.js"></script>
+    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+  </head>
+  <body ng-controller="researchGroups">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Bootstrap theme</a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+              <img src="./images/personal.jpg" class="img-circle">
+              <h5>Mohit Chamania</h5>
+              <small>
+                R&D Engineer, <br/>
+                ADVA Optical Networking <br/>
+                <b>Email:</b> mchamania [at] advaoptical [dot] com
+              </small>
+          </div>
+          <div class="col-sm-9">
+            I am currently working as a software engineer at ADVA Optical Networking in Berlin, Germany. I completed my undergraduate
+            studies at IIT Bombay, where I received a B.Tech and M.Tech in mechanical engineering in 2007. I received my Ph.D (summa cum laude)
+            in electrical engineering at the Institute of Computer and Network Engineering, TU Braunschweig in 2013 under Prof. Admela Jukan.
+            My areas of interest include control and optimization of multi-layer transport networks, with a special focus on on-line optimization
+            and programmable interactions in multi-layer networks.
+            <h4>Affiliations</h4>
+            <div class="row spacersmall">
+              <div class="col-sm-3">
+                Feb 2014 - present
+              </div>
+              <div class="col-sm-9">
+                Research engineer at ADVA Optical Networking with primarily focusing on service and multilayer topology management.
+              </div>
+            </div>
+            <div class="row spacersmall">
+              <div class="col-sm-3">
+                Feb 2008 - Dec 2013
+              </div>
+              <div class="col-sm-9">
+                Scientific Research staff member at IDA, TU Braunschweig.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row spacer">
+          <div class="col-sm-3">
+            <h3>Research</h3>
+          </div>
+          <div class="col-sm-9">
+            <h4>In-flight Encryption</h4>
+            In-flight encryption is an essential component of today's cyber-security infrastructure, and is
+            responsible for encrypting communication between trusted (intermediate) endpoints at different
+            network layers. Work in this area focuses on the abstractions required to define requirements
+            for encryption in a technology agnostic fashion, and facilitate provisioning at different network
+            layers.
+            <ul class="publist spacersmall">
+              <li class="pubentry" ng-repeat="j in resGroupData['enc']">
+                <b ng-if='j.hasOwnProperty("comment")'>{{j.comment}} </b>
+                {{j.authors}}, <i>{{j.title}},</i> {{j.category == 'journal' ? j.journal : j.conf}}, {{j.category == 'journal' ? j.pos + ', ' + j.year : j.year}},
+                 <a href = "{{j.doi}}" ng-if ='j.hasOwnProperty("doi")' target = "_blank">[doi]</a>
+                 <a href = "./citations/{{j.bib}}" ng-if ='j.hasOwnProperty("bib")' target = "_blank">[bib]</a>
+                 <a href = "./pdf/{{j.pdf}}" ng-if ='j.hasOwnProperty("pdf")' target = "_blank">[pdf]</a>
+              </li>
+            </ul>
+
+            <h4>IP Optical Integration</h4>
+            <p>The presence of a reconfigurable optical network <i>under</i> presents the possibility to use
+              optical circuits to alleviate transient overloading in IP networks. Contributions to this area
+              include the modeling of IP routing protocols when changing the IP topology (by adding/removing
+              optical paths). The Optical Bypass technique is also propsoed which is a novel mechanism
+              to introduce dynamic optical circuits in IP networks with limited impact on existing routing
+              configurations. Contributions to software architectures to facilitate orchestration in multiple
+              network layers was carried out in the EU Projects <a href="http://ict-one.eu" target="_blank">ONE</a>
+              and <a href="http://acino.eu" target="_blank">ACINO</a>.
+            </p>
+            <ul class="publist spacersmall">
+              <li class="pubentry" ng-repeat="j in resGroupData['ipopt']">
+                <b ng-if='j.hasOwnProperty("comment")'>{{j.comment}} </b>
+                {{j.authors}}, <i>{{j.title}},</i> {{j.category == 'journal' ? j.journal : j.conf}}, {{j.category == 'journal' ? j.pos + ', ' + j.year : j.year}},
+                 <a href = "{{j.doi}}" ng-if ='j.hasOwnProperty("doi")' target = "_blank">[doi]</a>
+                 <a href = "./citations/{{j.bib}}" ng-if ='j.hasOwnProperty("bib")' target = "_blank">[bib]</a>
+                 <a href = "./pdf/{{j.pdf}}" ng-if ='j.hasOwnProperty("pdf")' target = "_blank">[pdf]</a>
+              </li>
+            </ul>
+            <h4>Path Computation Element</h4>
+            <p>The Path Computation Element is an architectural component to facilitate constrained path computataion.
+              The research focused on the design and development of the first
+              <a href="http://www.opensourcepce.org" target="_blank">open source PCE implementation</a> and contributions
+              to the multi-layer PCE architectures.
+            </p>
+            <ul class="publist">
+              <li class="pubentry" ng-repeat="j in resGroupData['pce']">
+                <b ng-if='j.hasOwnProperty("comment")'>{{j.comment}} </b>
+                {{j.authors}}, <i>{{j.title}},</i> {{j.category == 'journal' ? j.journal : j.conf}}, {{j.category == 'journal' ? j.pos + ', ' + j.year : j.year}},
+                 <a href = "{{j.doi}}" ng-if ='j.hasOwnProperty("doi")' target = "_blank">[doi]</a>
+                 <a href = "./citations/{{j.bib}}" ng-if ='j.hasOwnProperty("bib")' target = "_blank">[bib]</a>
+                 <a href = "./pdf/{{j.pdf}}" ng-if ='j.hasOwnProperty("pdf")' target = "_blank">[pdf]</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row spacer">
+          <div class="col-sm-3">
+            <h3>Research Projects</h3>
+          </div>
+          <div class="col-sm-9">
+            <h4>Current Projects</h4>
+            <ul>
+              <li><a href="http://acino.eu" target="_blank">ACINO</a> application-centric IP/Optical Network Orchestration</li>
+            </ul>
+            <h4>Past Projects</h4>
+            <ul>
+              <li><a href="http://ict-one.eu" target="_blank">ONE</a> Towards Automated Interactions between the
+                Internet and the Carrier-Grade Management Ecosystems (EU STREP)</li>
+              <li>X10 Media Composer (IBM Innovation Award)</li>
+              <li><a href="https://www.celticplus.eu/project-100-get-e3/" target="_blank>"100 GET</a> 100 Gb/s Carrier-grade Ethernet (awarded by BMBF)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

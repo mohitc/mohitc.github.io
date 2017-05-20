@@ -1,0 +1,307 @@
+[
+  {
+    "category" : "conf",
+    "authors" : ["M. Chamania", "T. Szyrkowiec", "M. Santuari", "D. Siracusa", "A. Autenrieth", "V. Lopez", "P. Sköldström", "S. Junique"],
+    "title" : "Intent-Based In-flight Service Encryption in Multi-Layer Transport Networks",
+    "conf" : "Optical Fiber Communication Conference",
+    "year" : "2017",
+    "doi" : "https://doi.org/10.1364/OFC.2017.Tu3L.10",
+    "bib" : "ofc2017.bib",
+    "resGroup" : "enc"
+  }, {
+    "category" : "conf",
+    "comment" : "Post Deadline Paper",
+    "authors" : ["T. Szyrkowiec", "M. Santuari", "M. Chamania", "D. Siracusa", "A. Autenrieth", "V. Lopez"],
+    "title" : "First Demonstration of an Automatic Multilayer Intent-Based Encryption Assignment by an Open Source Orchestrator",
+    "conf" : "European Conference on Optical Communication (ECOC)",
+    "year" : "2016",
+    "bib" : "ecoc2016.bib",
+    "resGroup" : "enc"
+  }, {
+    "category" : "conf",
+    "authors" : ["V. Lopez", "J.M. Gran", "J.P. Fernandez-Palacios", "D. Siracusa", "F. Pederzolli", "O. Gerstel", "Y. Shikhmanter", "J. Martensson", "P. Skoldstrom", "T. Szyrkowiec", "M. Chamania", "A. Autenrieth", "I. Tomkos", "D. Klonidis"],
+    "title" : "The Role of SDN in Application Centric IP and Optical Networks",
+    "conf" : "European Conference on Networks and Communications (EuCNC)",
+    "year" : "2016",
+    "doi" : "https://doi.org/10.1109/EuCNC.2016.7561020",
+    "bib" : "eucnc2016.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Santuari", "T. Szyrkowiec", "M. Chamania", "R. Doriguzzi-Corin", "V. López", "D. Siracusa"],
+    "title" : "Policy-based Restoration in IP/Optical Transport Networks",
+    "conf" : "IEEE Netsoft",
+    "year" : "2016",
+    "doi" : "https://doi.org/10.1109/NETSOFT.2016.7502409",
+    "bib" : "netsoft2016.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Chamania", "F. Carpio", "A. Jukan"],
+    "title" : "Engineering the first open source implementation of the multi-layer network topology databases",
+    "conf" : "European Conference on Optical Communication (ECOC)",
+    "year" : "2015",
+    "doi" : "https://doi.org/10.1109/ECOC.2015.7341811",
+    "bib" : "ecoc2015.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["S. Martinez", "V. Lopez", "M. Chamania", "O. Gonzalez de Dios", "A. Jukan", "J. P. Fernandez-Palacios"],
+    "title" : "Assessing the Performance of Multi-Layer Path Computation Algorithms for different PCE Architectures",
+    "conf" : "OSA Optical Fiber Communication Conference (OFC) / National Fiber Optic Engineers Conference (NFOEC)",
+    "year" : "2013",
+    "doi" : "http://dx.doi.org/10.1364/OFC.2013.OW4G.1",
+    "bib" : "6533204.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Drogon", "M. Chamania", "A. Jukan", "M. Yannuzzi", "X. Masip-Bruin", "V. Lopez", "O. Gonzalez", "M. Maciejewski", "M. Roth", "C. Brunn", "J. Altmann"],
+    "title" : "Towards Automated Interactions between the Internet and the Carrier-Grade Management Ecosystems",
+    "conf" : "Future Network and Mobile Summit",
+    "year" : "2013",
+    "bib" : "6633555.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["X. Chen", "M. Chamania", "A. Jukan"],
+    "title" : "On the Effectiveness of Optical Parallel Transmission in IP Offloading",
+    "conf" : "Networks and Optical Communications (NOC)",
+    "year" : "2012",
+    "doi" : "http://dx.doi.org/10.1109/NOC.2012.6249951",
+    "bib" : "6249951.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Chamania", "O. Gonzalez de Dios", "V. Lopez", "M. Cuaresma", "M. Drogon", "A. Jukan", "X. Masip-Bruin", "M. Yannuzzi"],
+    "title" : "Coordinated Computation of Multi-layer Paths via Inter-layer PCE Communication: Standards, Interoperability and Deployment",
+    "conf" : "IEEE International Conference on  Communications (ICC)",
+    "year" : "2012",
+    "doi" : "http://dx.doi.org/10.1109/ICC.2012.6364957",
+    "bib" : "6364957.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Chamania", "E. Demirbilek", "A. Jukan", "X. Masip-Bruin", "M. Yannuzzi"],
+    "title" : "Using BPEL Workflow Processing for Cross-Layer Orchestrations in IP-over-Optical Networks: A Proof of Concept",
+    "conf" : "IEEE/IFIP Network Operations and Management Symposium (NOMS)",
+    "year" : "2012",
+    "doi" : "http://dx.doi.org/10.1109/NOMS.2012.6212049",
+    "bib" : "6212049.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Chamania", "M. Caria", "A. Jukan"],
+    "title" : "A Comparative Performance Analysis of IP Traffic Offloading Schemes over Dynamic Circuits",
+    "conf" :  "IEEE INFOCOM",
+    "year" : "2011",
+    "doi" : "http://dx.doi.org/10.1109/INFCOM.2011.5934922",
+    "bib" : "5934922.bib"
+  }, {
+    "category" : "conf",
+    "comment" : "Post Deadline Paper",
+    "authors" : ["M. Chamania", "M. Drogon", "A. Jukan"],
+    "title" : "Lessons Learned From Implementing a Path Computation Element (PCE) Emulator",
+    "conf" : "OSA Optical Fiber Communication Conference (OFC) / National Fiber Optic Engineers Conference (NFOEC)",
+    "year" : "2011",
+    "doi" : "http://dx.doi.org/10.1364/OFC.2011.PDPD1",
+    "bib" : "5875811.bib",
+    "resGroup" : "pce"
+  }, {
+    "category" : "conf",
+    "authors" : ["X. Chen", "M. Chamania", "A. Jukan"],
+    "title" : "A Backward-Compatible Inter-domain Multipath Routing Framework",
+    "conf" : "IEEE Conference on Computer Communications Workshops (INFOCOM Workshops)",
+    "year" : "2011",
+    "doi" : "http://dx.doi.org/10.1109/INFCOMW.2011.5928794",
+    "bib" : "5928794.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Caria", "M. Chamania", "A. Jukan"],
+    "title" : "To Switch On or Off: A Simple Case Study on Energy Efficiency in IP-over-WDM Networks",
+    "conf" : "IEEE High Performance Switching and Routing (HPSR)",
+    "year" : "2011",
+    "doi" : "http://dx.doi.org/10.1109/HPSR.2011.5986006",
+    "bib" : "5986006.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Caria", "M. Chamania", "A. Jukan"],
+    "title" : "Trading IP Routing Stability for Energy Efficiency: A Case for Traffic Offloading with Optical Bypass",
+    "conf" : "Optical Network Design and Modeling (ONDM)",
+    "year" : "2011",
+    "bib" : "5753406.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Chamania", "M. Caria", "A. Jukan"],
+    "title" : "Effective Usage of Dynamic Circuits for IP Routing",
+    "conf" : "IEEE International Conference on  Communications (ICC)",
+    "year" : "2010",
+    "doi" : "http://dx.doi.org/10.1109/ICC.2010.5501805",
+    "bib" : "5501805.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["S. Greco-Polito", "D. Gebbers", "M. Chamania", "A. Jukan"],
+    "title" : "A New NSIS Application for LSP Setup with Security Features",
+    "conf" : "IEEE International Conference on  Communications (ICC)",
+    "year" : "2010",
+    "doi" : "http://dx.doi.org/10.1109/ICC.2010.5502672",
+    "bib" : "5502672.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["O. Tipmongkolsilp", "M. Chamania", "A. Jukan"],
+    "title" : "Network-Centric Media Composition under Extreme Bandwidth Requirements for High Quality Video Streaming",
+    "conf" : "ACM Supercomputing (SC)",
+    "year" : "2010"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Chamania", "M. Caria", "A. Jukan"],
+    "title" : "Achieving IP Routing Stability with Optical Bypass",
+    "conf" : "IEEE Advanced Networks and Telecommunication Systems (ANTS)",
+    "year" : "2009",
+    "doi" : "http://dx.doi.org/10.1109/ANTS.2009.5409890",
+    "bib" : "5409890.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Chamania", "X. Chen", "A. Jukan", "F. Rambach", "C. Gruber", "M. Hoffmann"],
+    "title" : "Embedding Optical Ethernet Services within the Path Computation Element Framework: The 100GET Approach",
+    "conf" : "OSA Optical Fiber Communication Conference (OFC) / National Fiber Optic Engineers Conference (NFOEC)",
+    "year" : "2009",
+    "doi" : "http://dx.doi.org/10.1364/OFC.2009.OMQ2",
+    "bib" : "5032576.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["S. Greco-Polito", "M. Chamania", "A. Jukan"],
+    "title" : "Extending the PCE Framework for Authentication and Authorization in Multi-domain GMPLS Networks",
+    "conf" : "IEEE International Conference on  Communications (ICC)",
+    "year" : "2009",
+    "doi" : "http://dx.doi.org/10.1109/ICC.2009.5199021",
+    "bib" : "5199021.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["A. Gumaste", "M. Chamania", "A. Jukan"],
+    "title" : "An Evolutionary Approach to End-to-End Addressing and Routing in All-Ethernet Wide-Area Networks",
+    "conf" : "IEEE International Conference on  Communications (ICC)",
+    "year" : "2009",
+    "doi" : "http://dx.doi.org/10.1109/ICC.2009.5198732",
+    "bib" : "5198732.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["X. Chen", "M. Chamania", "A. Jukan", "A. Drummond", "N. L. S. Fonseca"],
+    "title" : "On the Benefits of Multipath Routing for Distributed Data-intensive Applications with High Bandwidth Requirements and Multidomain Reach",
+    "conf" : "Communication Networks and Services Research Conference (CNSR)",
+    "year" : "2009",
+    "doi" : "http://dx.doi.org/10.1109/CNSR.2009.26",
+    "bib" : "4939114.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["X. Chen", "M. Chamania", "A. Jukan", "A. C. Drummond",  "N. L. S. da, Fonseca"],
+    "title" : "QoS-Constrained Multi-path Routing for High-End Network Applications",
+    "conf" : "IEEE High-Speed Networks Workshop",
+    "year" : "2009",
+    "doi" : "http://dx.doi.org/10.1109/INFCOMW.2009.5072182",
+    "bib" : "5072182.bib"
+  }, {
+    "category" : "conf",
+    "authors" : ["M. Chamania", "X. Chen", "A. Jukan", "F. Rambach", "C. Gruber", "M. Hoffmann"],
+    "title" : "Adaptive Advance Reservation Based Inter-Domain Framework",
+    "conf" : "IEEE Advanced Networks and Telecommunication Systems (ANTS)",
+    "year" : "2008",
+    "doi" : "http://dx.doi.org/10.1109/ANTS.2008.4937804",
+    "bib" : "4937804.bib"
+  }, {
+    "category" : "invited",
+    "authors" : ["V. Lopez", "J. P. Fernandez-Palacios", "T. Szyrkowiec", "M. Chamania", "D. Siracusa"],
+    "title" : "Multi-layer resilience schemes and their control plane support",
+    "conf" : "International Conference On Design Of Reliable Communication Networks",
+    "year" : "2017"
+  }, {
+    "category" : "invited",
+    "authors" : ["F. Pederzolli", "D. Siracusa", "P. Sköldström", "S. Junique", "Ć. Rožić", "D. Klonidis", "T. Szyrkowiec", "M. Chamania", "V. Uceda", "V. López", "Y. Shikhmanter", "O. Gerstel"],
+    "title" : "SDN application-centric orchestration for multi-layer transport networks",
+    "conf" : "International Conference on Transparent Optical Networks",
+    "year" : "2016",
+    "doi" : "https://doi.org/10.1109/ICTON.2016.7550670",
+    "bib" : "icton2016.bib"
+  }, {
+    "category" : "invited",
+    "authors" : ["M. Yannuzzi", "A. Jukan", "X Masip-Bruin", "M. Chamania", "R. Serral-Gracia", "Victor Lopez", "O Gonzalez de Dios", "M. Maciejewski", "J. Altmann", "M. Roth", "C. Brunn", "A. Azanon"],
+    "title" : "The Internet and Transport Network Management Ecosystems: A Roadmap Towards Convergence",
+    "conf" : "Optical Network Design and Modeling (ONDM)",
+    "year" : "2012",
+    "doi" : "http://dx.doi.org/10.1109/ONDM.2012.6210200",
+    "bib" : "6210200.bib"
+  }, {
+    "category" : "invited",
+    "authors" : ["T. Michaelis", "M. Duelli", "M. Chamania", "B. Lichtinger", "F. Rambach", "S. Turk"],
+    "title" : "Network Planning, Control and Management Perspectives on Dynamic Networking",
+    "conf" : "European Conference on Optical Communication (ECOC)",
+    "year" : "2009",
+    "bib" : "5287186.bib"
+  }, {
+    "category" : "journal",
+    "authors" : ["M. Chamania", "A. Jukan"],
+    "title" : "A Comparative Analysis of the Effects of Dynamic Optical Circuit Provisioning on IP Routing",
+    "journal" : "IEEE/ACM Transactions on Networking",
+    "pos" : "vol.4, no.2 pp.429-442",
+    "year" : "2013",
+    "doi" : "http://dx.doi.org/10.1109/TNET.2013.2251897",
+    "bib" : "6488892.bib",
+    "resGroup" : "ipopt"
+  }, {
+    "category" : "journal",
+    "authors" : ["O. Gonzalez de Dios", "V. Lopez", "M. Cuaresma", "F. Munoz", "M. Chamania", "A. Jukan"],
+    "title" : "Coordinated Computation and Setup of Multi-layer Paths via Inter-layer PCE Communication: Standards, Interoperability and Deployment",
+    "journal" : "IEEE Communications Magazine",
+    "pos" : "vol.51, no.12, pp.144-154",
+    "year" : "2013",
+    "doi" : "http://dx.doi.org/10.1109/MCOM.2013.6685770",
+    "bib" : "6685770.bib"
+  }, {
+    "category" : "journal",
+    "authors" : ["M. Caria", "M. Chamania", "A. Jukan"],
+    "title" : "A Comparative Performance Study of Load Adaptive Energy Saving Schemes for IP-over-WDM Networks",
+    "journal" : "IEEE/OSA Journal of Optical Communications and Networking",
+    "pos" : "vol.4, no. 3, pp. 152-164",
+    "year" : "2012",
+    "doi" : "http://dx.doi.org/10.1364/JOCN.4.000152",
+    "bib" : "6171940.bib"
+  }, {
+    "category" : "journal",
+    "authors" : ["M. Chamania", "M. Drogon", "A. Jukan"],
+    "title" : "An Open-Source Path Computation Element (PCE) Emulator: Design, Implementation and Performance",
+    "journal" : "IEEE/OSA Journal of Lightwave Technology",
+    "pos" : "vol.30, no.4, pp. 414-426",
+    "year" : "2012",
+    "doi" : "http://dx.doi.org/10.1109/JLT.2011.2170402",
+    "bib" : "6042315.bib",
+    "resGroup" : "pce"
+  }, {
+    "category" : "journal",
+    "authors" : ["S. Greco Polito", "S. Zaghloul", "M. Chamania", "A. Jukan"],
+    "title" : "Inter-Domain Path Provisioning with Security Features: Architecture and Signaling Performance",
+    "journal" : "IEEE Transactions on Network and Service Management",
+    "pos" : "vol.8, no.3, pp.219-233",
+    "year" : "2011",
+    "doi" : "http://dx.doi.org/10.1109/TCOMM.2011.072611.100047",
+    "bib" : "6009142.bib"
+  }, {
+    "category" : "journal",
+    "authors" : ["M. Chamania", "M. Caria", "A. Jukan"],
+    "title" : "Achieving IP Routing Stability with Optical Bypass",
+    "journal" : "Optical Switching and Networking",
+    "pos" : "vol. 7, no. 4, pp. 173-184",
+    "year" : "2010",
+    "doi" : "http://dx.doi.org/10.1016/j.osn.2010.05.005",
+    "bib" : "Chamania2010173.bib",
+    "resGroup" : "ipopt"
+  }, {
+    "category" : "journal",
+    "authors" : ["M. Chamania", "X. Chen",  "A. Jukan", "F. Rambach", "M. Hoffmann"],
+    "title" : "An adaptive inter-domain PCE framework to improve resource utilization and reduce inter-domain signaling",
+    "journal" : "Optical Switching and Networking",
+    "pos" : "vol.6, no.4, pp.259-267",
+    "year" : "2009",
+    "doi" : "http://dx.doi.org/10.1016/j.osn.2009.08.007",
+    "bib" : "Chamania2009259.bib"
+  }, {
+    "category" : "journal",
+    "authors" : ["M. Chamania", "A. Jukan"],
+    "title" : "A Survey of Inter-Domain Peering and Provisioning Solutions for the Next Generation Optical Networks",
+    "journal" : "IEEE Communications Surveys and Tutorials",
+    "pos" : "vol.11, no.1, pp.33-51",
+    "year" : "2009",
+    "doi" : "http://dx.doi.org/10.1109/SURV.2009.090104",
+    "bib" : "Chamania2211409.bib"
+  }
+]

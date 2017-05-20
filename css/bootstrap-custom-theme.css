@@ -1,0 +1,66 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.anchor {
+  padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6, li
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.publist ol {
+  list-style: symbols("*" "\2020" "\2021" "\A7");
+}
+
+.publist li {
+  text-align: justify;
+  margin-bottom:  5px;
+}
+
+.publist li::marker {
+  width: 30px;
+  text-align: right;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.pubentry {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+}
+
+.pubheading {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.spacer {
+  padding-top: 20px;
+}
+
+.spacersmall {
+  padding-top: 10px;
+}
+
+.h4 {
+  padding-top: 20px;
+}
