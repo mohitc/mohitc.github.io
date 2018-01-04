@@ -201,6 +201,15 @@
     "bib" : "4937804.bib"
   }, {
     "category" : "invited",
+    "authors" : ["A. Jukan", "M. Chamania"],
+    "title" : "Evolution towards Smart Optical Networking: Where Artificial Intelligence (AI) meets the World of Photonics",
+    "conf" : "Advanced Photonics",
+    "year" : "2017",
+    "doi" : "https://doi.org/10.1364/NETWORKS.2017.NeM2B.4",
+    "bib" : "photonicsai.bib"
+  },
+  {
+    "category" : "invited",
     "authors" : ["V. Lopez", "J. P. Fernandez-Palacios", "T. Szyrkowiec", "M. Chamania", "D. Siracusa"],
     "title" : "Multi-layer resilience schemes and their control plane support",
     "conf" : "International Conference On Design Of Reliable Communication Networks",
