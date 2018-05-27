@@ -1,6 +1,14 @@
 [
   {
     "category" : "conf",
+    "authors" : ["F. Pederzolli", "M. Chamania", "M. Santuari", "T. Szyrkowiec", "C. Matrakidis", "C. Rozic", "D. Klonidis", "V. Lopez", "D. Siracusa"], 
+    "title" : "Disaggregating Optical Nodes in a Multi-Layer SDN Orchestrator for the Integration of an In-Operation Planning Tool", 
+    "conf" : "Optical Fiber Communications Conference and Exhibition (OFC)",
+    "year" : "2018",
+    "doi" : "https://doi.org/10.1364/OFC.2018.Th2A.35",
+    "bib" : "ofc2018dissag.bib"
+  }, {
+    "category" : "conf",
     "authors" : ["M. Chamania", "T. Szyrkowiec", "M. Santuari", "D. Siracusa", "A. Autenrieth", "V. Lopez", "P. Sköldström", "S. Junique"],
     "title" : "Intent-Based In-flight Service Encryption in Multi-Layer Transport Networks",
     "conf" : "Optical Fiber Communication Conference",
@@ -33,7 +41,7 @@
     "year" : "2016",
     "doi" : "https://doi.org/10.1109/NETSOFT.2016.7502409",
     "bib" : "netsoft2016.bib"
-  }, {
+  }, { 
     "category" : "conf",
     "authors" : ["M. Chamania", "F. Carpio", "A. Jukan"],
     "title" : "Engineering the first open source implementation of the multi-layer network topology databases",
@@ -201,6 +209,14 @@
     "bib" : "4937804.bib"
   }, {
     "category" : "invited",
+    "authors" : ["I. Tomkos", "C. Rozic", "M. Savi", "P. Skoldstrom", "V. Lopez", "M. Chamania", "D. Siracusa", "C. Matrakidis", "D. Klonidis"],
+    "title" : "Application aware multilayer control and optimization of elastic WDM switched optical networks",
+    "conf" : "Optical Fiber Communications Conference and Exhibition (OFC)",
+    "year" : "2018",
+    "doi" : "https://doi.org/10.1364/OFC.2018.Th1D.4",
+    "bib" : "ofc2018invited.bib"
+  }, {
+    "category" : "invited",
     "authors" : ["A. Jukan", "M. Chamania"],
     "title" : "Evolution towards Smart Optical Networking: Where Artificial Intelligence (AI) meets the World of Photonics",
     "conf" : "Advanced Photonics",
@@ -237,6 +253,31 @@
     "conf" : "European Conference on Optical Communication (ECOC)",
     "year" : "2009",
     "bib" : "5287186.bib"
+  }, {
+    "category" : "journal",
+    "authors" : ["J. Mata", "I. Miguel", "R. Durán", "N. Merayo", "S. Singh", "A. Jukan", "M. Chamania"],
+    "title" : "Artificial intelligence (AI) methods in optical networks: A comprehensive survey",
+    "journal" : "Optical Switching and Networking",
+    "pos" : "vol.28 pp.43-57",
+    "year" : "2018",
+    "doi" : "https://doi.org/10.1016/j.osn.2017.12.006",
+    "bib" : "aisurvey.bib"
+  }, {
+    "category" : "journal",
+    "authors" : "["V. López", "J. M. Gran", "R. Jimenez", "J. P. Fernandez–Palacios", "D. Siracusa", "F. Pederzolli", "O. Gerstel", "Y. Shikhmanter","J. Mårtensson", "P. Sköldström", "T. Szyrkowiec", "M. Chamania", "A. Autenrieth", "I. Tomkos", "D. Klonidis"],
+    "title" : "The Role of SDN in Application Centric IP and Optical Networks",
+    "journal" : "Journal of Green Engineering",
+    "pos" : "vol.6, no.3, pp.317-336",
+    "year" : "2016",
+    "doi" : "http://dx.doi.org/10.13052/jge1904-4720.634"
+  }, {
+    "category" : "journal",
+    "authors" : ["T. Szyrkowiec", "M. Santuari", "M. Chamania", "D. Siracusa", "A. Autenrieth", "V. Lopez", "J. Cho", "W. Kellerer"],
+    "title" : "Automatic Intent-Based Secure Service Creation through a Multilayer SDN Network Orchestration",
+    "journal" : "Journal of Optical Communications and Networking (JOCN)",
+    "pos" : "vol.10 pp.289-297",
+    "doi" : "https://doi.org/10.1364/JOCN.10.000289",
+    "bib" : "encjocn2018.bib"
   }, {
     "category" : "journal",
     "authors" : ["M. Chamania", "A. Jukan"],
@@ -312,5 +353,5 @@
     "year" : "2009",
     "doi" : "http://dx.doi.org/10.1109/SURV.2009.090104",
     "bib" : "Chamania2211409.bib"
-  }
+  }  
 ]
