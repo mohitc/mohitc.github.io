@@ -264,7 +264,7 @@
     "bib" : "aisurvey.bib"
   }, {
     "category" : "journal",
-    "authors" : "["V. López", "J. M. Gran", "R. Jimenez", "J. P. Fernandez–Palacios", "D. Siracusa", "F. Pederzolli", "O. Gerstel", "Y. Shikhmanter","J. Mårtensson", "P. Sköldström", "T. Szyrkowiec", "M. Chamania", "A. Autenrieth", "I. Tomkos", "D. Klonidis"],
+    "authors" : ["V. López", "J. M. Gran", "R. Jimenez", "J. P. Fernandez–Palacios", "D. Siracusa", "F. Pederzolli", "O. Gerstel", "Y. Shikhmanter","J. Mårtensson", "P. Sköldström", "T. Szyrkowiec", "M. Chamania", "A. Autenrieth", "I. Tomkos", "D. Klonidis"],
     "title" : "The Role of SDN in Application Centric IP and Optical Networks",
     "journal" : "Journal of Green Engineering",
     "pos" : "vol.6, no.3, pp.317-336",
