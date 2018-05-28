@@ -278,7 +278,8 @@
     "pos" : "vol.10 pp.289-297",
     "year" : "2018",
     "doi" : "https://doi.org/10.1364/JOCN.10.000289",
-    "bib" : "encjocn2018.bib"
+    "bib" : "encjocn2018.bib",
+    "resGroup" : "enc"
   }, {
     "category" : "journal",
     "authors" : ["M. Chamania", "A. Jukan"],
