@@ -1,5 +1,12 @@
 [
   {
+    "category":"conf",
+    "authors" : ["T. Szyrkowiec", "M. Chamania", "B. Andrus", "A. Autenrieth", "A. Marsico", "D. Siracusa"],
+    "title" : "Demonstration of an Application-Based Service Lifecycle Orchestration for the Future Internet",
+    "conf" : "European Conference on Optical Communication (ECOC)",
+    "year" : "2018"
+  },
+  {
     "category" : "conf",
     "authors" : ["F. Pederzolli", "M. Chamania", "M. Santuari", "T. Szyrkowiec", "C. Matrakidis", "C. Rozic", "D. Klonidis", "V. Lopez", "D. Siracusa"], 
     "title" : "Disaggregating Optical Nodes in a Multi-Layer SDN Orchestrator for the Integration of an In-Operation Planning Tool", 
