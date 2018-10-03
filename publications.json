@@ -5,6 +5,13 @@
     "title" : "Demonstration of an Application-Based Service Lifecycle Orchestration for the Future Internet",
     "conf" : "European Conference on Optical Communication (ECOC)",
     "year" : "2018"
+  }, {
+    "category" : "conf",
+    "authors" : ["A Marsico", "M. Chamania", "R. Doriguzzi-Corin", "C. Matrakidis", "D. Klonidis", "P. Sköldström", "A. Ghafoor", "S. Junique", "V. Lòpez", "D. Siracusa"],
+    "title" : "Enriching Intent-based SDN to Ease Customer Service Management in Transport Networks",
+    "year" : "2018",
+    "doi" : "https://doi.org/10.1364/NETWORKS.2018.NeW2F.2",
+    "bib" : "ap2018.bib"
   },
   {
     "category" : "conf",
