@@ -1,5 +1,12 @@
 [
   {
+    "category" : "conf",
+    "authors" : ["B.M. Andrus", "S. Sasu", "T. Szyrkowiec", "A. Autenrieth", "M. Chamania", "J. K. Fischer", "S. Rasp"],
+    "title" : "Zero-Touch Provisioning of Distributed Video Analytics in a Software-Defined Metro-Haul Network with P4 Processing ",
+    "year" : "2019",
+    "doi" : "http://dx.doi.org/10.1364/OFC.2019.M3Z.10",
+    "bib" : "ofc2019p4.bib"
+  }, {
     "category":"conf",
     "authors" : ["T. Szyrkowiec", "M. Chamania", "B. Andrus", "A. Autenrieth", "A. Marsico", "D. Siracusa"],
     "title" : "Demonstration of an Application-Based Service Lifecycle Orchestration for the Future Internet",
