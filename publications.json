@@ -242,6 +242,14 @@
     "year" : "2018"
   }, {
     "category" : "invited",
+    "authors" : ["J. Mata", "I. de Miguel", "R. J. Durán", "N. Merayo", "S. K. Singh", "A. Jukan", "M. Chamania"],
+    "title" : "Application of Artificial Intelligence Techniques in Optical Networks",
+    "conf" : "2018 IEEE Photonics Society Summer Topical Meeting Series (SUM)",
+    "year" : "2018",
+    "doi" : "https://doi.org/10.1109/PHOSST.2018.8456691",
+    "bib" : "aiieeesum2018.bib"
+  }, {
+    "category" : "invited",
     "authors" : ["I. Tomkos", "C. Rozic", "M. Savi", "P. Skoldstrom", "V. Lopez", "M. Chamania", "D. Siracusa", "C. Matrakidis", "D. Klonidis"],
     "title" : "Application aware multilayer control and optimization of elastic WDM switched optical networks",
     "conf" : "Optical Fiber Communications Conference and Exhibition (OFC)",
