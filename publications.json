@@ -228,6 +228,18 @@
     "year" : "2008",
     "doi" : "http://dx.doi.org/10.1109/ANTS.2008.4937804",
     "bib" : "4937804.bib"
+  }, { 
+    "category" : "invited",
+    "authors" : ["A. Autenrieth", "M. Chamania", "S. Dris", "D. Khomchenko", "A. Mittermaier", "S. Neidlinger", "M. Skorupski"],
+    "title" : "ONF core information model extension and its application and verification in photonic layer SDN API",
+    "conf" : "20. ITG Fachtagung Photonische Netze",
+    "year" : "2019"
+  }, {
+    "category" : "invited",
+    "authors" : ["M. Chamania"],
+    "title" : "Challenges with SDN-driven control and management of Dynamic Optical Networks",
+    "conf" : "Optical Network Design and Modeling (ONDM)",
+    "year" : "2018"
   }, {
     "category" : "invited",
     "authors" : ["I. Tomkos", "C. Rozic", "M. Savi", "P. Skoldstrom", "V. Lopez", "M. Chamania", "D. Siracusa", "C. Matrakidis", "D. Klonidis"],
