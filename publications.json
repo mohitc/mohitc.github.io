@@ -233,7 +233,9 @@
     "authors" : ["M. Chamania", "X. Chen"],
     "title" : "Analytics-driven Network Management",
     "conf" : "OSA Advanced Photonics Congress",
-    "year" : "2019"
+    "year" : "2019",
+    "doi" : "https://doi.org/10.1364/NETWORKS.2019.NeTh1D.1",
+    "bib" : "osaap2019.bib"
   }, { 
     "category" : "invited",
     "authors" : ["A. Autenrieth", "M. Chamania", "S. Dris", "D. Khomchenko", "A. Mittermaier", "S. Neidlinger", "M. Skorupski"],
