@@ -11,7 +11,9 @@
     "authors" : ["T. Szyrkowiec", "M. Chamania", "B. Andrus", "A. Autenrieth", "A. Marsico", "D. Siracusa"],
     "title" : "Demonstration of an Application-Based Service Lifecycle Orchestration for the Future Internet",
     "conf" : "European Conference on Optical Communication (ECOC)",
-    "year" : "2018"
+    "year" : "2018",
+    "doi": "https://doi.org/10.1109/ECOC.2018.8535132",
+    "bib": "8535132.bib"
   }, {
     "category" : "conf",
     "authors" : ["A Marsico", "M. Chamania", "R. Doriguzzi-Corin", "C. Matrakidis", "D. Klonidis", "P. Sköldström", "A. Ghafoor", "S. Junique", "V. Lòpez", "D. Siracusa"],
@@ -22,8 +24,8 @@
   },
   {
     "category" : "conf",
-    "authors" : ["F. Pederzolli", "M. Chamania", "M. Santuari", "T. Szyrkowiec", "C. Matrakidis", "C. Rozic", "D. Klonidis", "V. Lopez", "D. Siracusa"], 
-    "title" : "Disaggregating Optical Nodes in a Multi-Layer SDN Orchestrator for the Integration of an In-Operation Planning Tool", 
+    "authors" : ["F. Pederzolli", "M. Chamania", "M. Santuari", "T. Szyrkowiec", "C. Matrakidis", "C. Rozic", "D. Klonidis", "V. Lopez", "D. Siracusa"],
+    "title" : "Disaggregating Optical Nodes in a Multi-Layer SDN Orchestrator for the Integration of an In-Operation Planning Tool",
     "conf" : "Optical Fiber Communications Conference and Exhibition (OFC)",
     "year" : "2018",
     "doi" : "https://doi.org/10.1364/OFC.2018.Th2A.35",
@@ -62,7 +64,7 @@
     "year" : "2016",
     "doi" : "https://doi.org/10.1109/NETSOFT.2016.7502409",
     "bib" : "netsoft2016.bib"
-  }, { 
+  }, {
     "category" : "conf",
     "authors" : ["M. Chamania", "F. Carpio", "A. Jukan"],
     "title" : "Engineering the first open source implementation of the multi-layer network topology databases",
@@ -236,7 +238,7 @@
     "year" : "2019",
     "doi" : "https://doi.org/10.1364/NETWORKS.2019.NeTh1D.1",
     "bib" : "osaap2019.bib"
-  }, { 
+  }, {
     "category" : "invited",
     "authors" : ["A. Autenrieth", "M. Chamania", "S. Dris", "D. Khomchenko", "A. Mittermaier", "S. Neidlinger", "M. Skorupski"],
     "title" : "ONF core information model extension and its application and verification in photonic layer SDN API",
@@ -318,7 +320,8 @@
     "journal" : "Journal of Green Engineering",
     "pos" : "vol.6, no.3, pp.317-336",
     "year" : "2016",
-    "doi" : "http://dx.doi.org/10.13052/jge1904-4720.634"
+    "doi" : "http://dx.doi.org/10.13052/jge1904-4720.634",
+    "bib" : "lopez1378523.bib"
   }, {
     "category" : "journal",
     "authors" : ["T. Szyrkowiec", "M. Santuari", "M. Chamania", "D. Siracusa", "A. Autenrieth", "V. Lopez", "J. Cho", "W. Kellerer"],
@@ -404,5 +407,13 @@
     "year" : "2009",
     "doi" : "http://dx.doi.org/10.1109/SURV.2009.090104",
     "bib" : "Chamania2211409.bib"
-  }  
+  }, {
+    "category" : "chapter",
+    "authors" : ["M. Chamania", "A. Jukan"],
+    "title": "Dynamic Control of Optical Networks",
+    "booktitle": "Springer Handbook of Optical Networks",
+    "pages": "535--552",
+    "year": "2020",
+    "bib": "springerchapter.bib"
+  }
 ]

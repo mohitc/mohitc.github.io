@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="publications">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,27 +8,19 @@
     <meta name="author" content="Mohit Chamania">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mohit Chamania</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-custom-theme.css">
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" >
-    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">  -->
-    <script src="./js/angular.min.js"></script>
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/publications.js"></script>
-    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+    <link rel="stylesheet" href="css/native.css">
+    <script src="./js/index.js"></script>
   </head>
-  <body ng-controller="researchGroups">
+  <body>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed" onclick="document.getElementById('navbar').classList.toggle('in')">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- <a class="navbar-brand" href="#">Bootstrap theme</a> -->
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -42,12 +34,12 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-              <img src="./images/personal.jpg" class="img-circle">
+              <img src="./images/personal.jpg" class="img-circle" alt="Mohit Chamania">
               <h5>Mohit Chamania</h5>
               <small>
-                R&D Engineer, <br/>
-                ADVA Optical Networking <br/>
-                <b>Email:</b> mchamania [at] advaoptical [dot] com
+                Site Reliability Engineer, <br/>
+                Google Germany <br/>
+                <b>Email:</b> mchamania [at] google [dot] com
               </small>
           </div>
           <div class="col-sm-9">
@@ -84,16 +76,9 @@
             In-flight encryption is an essential component of today's cyber-security infrastructure, and is
             responsible for encrypting communication between trusted (intermediate) endpoints at different
             network layers. Work in this area focuses on the abstractions required to define requirements
-            for encryption in a technology agnostic fashion, and facilitate provisioning at different network
+            for encryption in a technology-agnostic fashion, and facilitate provisioning at different network
             layers.
-            <ul class="publist spacersmall">
-              <li class="pubentry" ng-repeat="j in resGroupData['enc']">
-                <b ng-if='j.hasOwnProperty("comment")'>{{j.comment}} </b>
-                {{j.authors}}, <i>{{j.title}},</i> {{j.category == 'journal' ? j.journal : j.conf}}, {{j.category == 'journal' ? j.pos + ', ' + j.year : j.year}},
-                 <a href = "{{j.doi}}" ng-if ='j.hasOwnProperty("doi")' target = "_blank">[doi]</a>
-                 <a href = "./citations/{{j.bib}}" ng-if ='j.hasOwnProperty("bib")' target = "_blank">[bib]</a>
-                 <a href = "./pdf/{{j.pdf}}" ng-if ='j.hasOwnProperty("pdf")' target = "_blank">[pdf]</a>
-              </li>
+            <ul class="publist spacersmall" id="enc-list">
             </ul>
 
             <h4>IP Optical Integration</h4>
@@ -106,14 +91,7 @@
               network layers was carried out in the EU Projects <a href="http://ict-one.eu" target="_blank">ONE</a>
               and <a href="http://acino.eu" target="_blank">ACINO</a>.
             </p>
-            <ul class="publist spacersmall">
-              <li class="pubentry" ng-repeat="j in resGroupData['ipopt']">
-                <b ng-if='j.hasOwnProperty("comment")'>{{j.comment}} </b>
-                {{j.authors}}, <i>{{j.title}},</i> {{j.category == 'journal' ? j.journal : j.conf}}, {{j.category == 'journal' ? j.pos + ', ' + j.year : j.year}},
-                 <a href = "{{j.doi}}" ng-if ='j.hasOwnProperty("doi")' target = "_blank">[doi]</a>
-                 <a href = "./citations/{{j.bib}}" ng-if ='j.hasOwnProperty("bib")' target = "_blank">[bib]</a>
-                 <a href = "./pdf/{{j.pdf}}" ng-if ='j.hasOwnProperty("pdf")' target = "_blank">[pdf]</a>
-              </li>
+            <ul class="publist spacersmall" id="ipopt-list">
             </ul>
             <h4>Path Computation Element</h4>
             <p>The Path Computation Element is an architectural component to facilitate constrained path computataion.
@@ -121,14 +99,7 @@
               <a href="http://www.opensourcepce.org" target="_blank">open source PCE implementation</a> and contributions
               to the multi-layer PCE architectures.
             </p>
-            <ul class="publist">
-              <li class="pubentry" ng-repeat="j in resGroupData['pce']">
-                <b ng-if='j.hasOwnProperty("comment")'>{{j.comment}} </b>
-                {{j.authors}}, <i>{{j.title}},</i> {{j.category == 'journal' ? j.journal : j.conf}}, {{j.category == 'journal' ? j.pos + ', ' + j.year : j.year}},
-                 <a href = "{{j.doi}}" ng-if ='j.hasOwnProperty("doi")' target = "_blank">[doi]</a>
-                 <a href = "./citations/{{j.bib}}" ng-if ='j.hasOwnProperty("bib")' target = "_blank">[bib]</a>
-                 <a href = "./pdf/{{j.pdf}}" ng-if ='j.hasOwnProperty("pdf")' target = "_blank">[pdf]</a>
-              </li>
+            <ul class="publist" id="pce-list">
             </ul>
           </div>
         </div>
@@ -139,7 +110,7 @@
           <div class="col-sm-9">
             <h4>Current Projects</h4>
             <ul>
-	      <li><a href="https://www.celticplus.eu/project-sendate-secure-dci/" target="_blank">SENDATE</a>Secure Datacenter Interconnects</li>
+	      <li><a href="https://www.celticplus.eu/project-sendate-secure-dci/" target="_blank">SENDATE</a> Secure Datacenter Interconnects</li>
 	      <li><a href="http://acino.eu" target="_blank">ACINO</a> Application-centric IP/Optical Network Orchestration</li>
             </ul>
             <h4>Past Projects</h4>
@@ -147,7 +118,7 @@
               <li><a href="http://ict-one.eu" target="_blank">ONE</a> Towards Automated Interactions between the
                 Internet and the Carrier-Grade Management Ecosystems (EU STREP)</li>
               <li>X10 Media Composer (IBM Innovation Award)</li>
-              <li><a href="https://www.celticplus.eu/project-100-get-e3/" target="_blank>"100 GET</a> 100 Gb/s Carrier-grade Ethernet (awarded by BMBF)</li>
+              <li><a href="https://www.celticplus.eu/project-100-get-e3/" target="_blank">100 GET</a> 100 Gb/s Carrier-grade Ethernet (awarded by BMBF)</li>
             </ul>
           </div>
         </div>

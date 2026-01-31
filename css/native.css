@@ -1,0 +1,241 @@
+@import url('//fonts.googleapis.com/css?family=Raleway:400,300,600');
+
+/* Basic body and font styles */
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, li,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Container */
+.container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Grid system */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-sm-3, .col-sm-9, .col-sm-12 {
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .col-sm-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .col-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Image */
+.img-circle {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggle {
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 9px 10px;
+    margin-right: 15px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #888;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
+
+.navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar-nav {
+    display: flex;
+    margin: 7.5px -15px;
+}
+
+.nav-item > a {
+    padding: 10px 15px;
+    font-weight: 400;
+}
+
+.nav-link {
+  color: #777;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  position: relative;
+}
+
+.nav-link.active, .nav-link:hover {
+  color: #333;
+  background-color: transparent;
+}
+
+.nav-link.active {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+
+/* Custom styles from bootstrap-custom-theme.css */
+.publist {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.publist li {
+  text-align: justify;
+  margin-bottom:  5px;
+}
+
+.pubentry {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+}
+
+.spacer {
+  padding-top: 20px;
+}
+
+.spacersmall {
+  padding-top: 10px;
+}
+
+.h4 {
+  padding-top: 20px;
+}
+
+.anchor {
+  padding-top: 70px;
+  margin-top: -70px; /* Compensate for the padding so it doesn't add extra space but still offsets the scroll position */
+  display: block;
+  visibility: hidden;
+  position: relative;
+}
+
+/* For mobile */
+@media (max-width: 768px) {
+    .navbar-header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        display: none !important;
+        width: 100%;
+    }
+    .navbar-collapse.in {
+        display: block !important;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .navbar-nav {
+        margin: 7.5px -15px;
+        width: 100%;
+    }
+    .nav-item {
+        width: 100%;
+    }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
