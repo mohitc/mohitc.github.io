@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="publications">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,56 +8,75 @@
     <meta name="author" content="Mohit Chamania">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mohit Chamania - Publications</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-custom-theme.css">
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" >
-    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">  -->
-    <script src="./js/angular.min.js"></script>
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/native.css">
     <script src="./js/publications.js"></script>
-    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
   </head>
-  <body ng-controller="listPubs">
+  <body>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed" onclick="document.getElementById('navbar').classList.toggle('in')">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- <a class="navbar-brand" href="#">Bootstrap theme</a> -->
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Back to Home</a></li>
-            <li><a href="#journals">Journals</a></li>
-            <li><a href="#conferences">Conferences</a></li>
-            <li><a href="#invited">Invited</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link">Back to Home</a></li>
+            <li class="nav-item"><a href="#journals" class="nav-link">Journals</a></li>
+            <li class="nav-item"><a href="#conferences" class="nav-link">Conferences</a></li>
+            <li class="nav-item"><a href="#invited" class="nav-link">Invited</a></li>
+              <li class="nav-item"><a href="#chapter" class="nav-link">Book Chapters</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="content">
-      <!-- Publications -->
-      <div class="container" ng-repeat="e in entryClasses">
+      <!-- Journal Publications -->
+      <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h4><a class="anchor" name="{{e.shortentry}}"></a>{{e.title}}</h4>
-            <ol class="publist">
-              <li class="pubentry" ng-repeat="j in confData[e.category]">
-                <b ng-if='j.hasOwnProperty("comment")'>{{j.comment}} </b>
-                {{j.authors}}, <i>{{j.title}},</i> {{j.category == 'journal' ? j.journal : j.conf}}, {{j.category == 'journal' ? j.pos + ', ' + j.year : j.year}},
-                 <a href = "{{j.doi}}" ng-if ='j.hasOwnProperty("doi")' target = "_blank">[doi]</a>
-                 <a href = "./citations/{{j.bib}}" ng-if ='j.hasOwnProperty("bib")' target = "_blank">[bib]</a>
-                 <a href = "./pdf/{{j.pdf}}" ng-if ='j.hasOwnProperty("pdf")' target = "_blank">[pdf]</a>
-              </li>
+            <h4><a class="anchor" id="journals"></a>Journal Publications</h4>
+            <ol class="publist" id="journal-list">
             </ol>
           </div>
         </div>
       </div>
+
+      <!-- Conference Publications -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h4><a class="anchor" id="conferences"></a>Conference Publications</h4>
+            <ol class="publist" id="conf-list">
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- Invited Conference Publications -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h4><a class="anchor" id="invited"></a>Invited Conference Publications</h4>
+            <ol class="publist" id="invited-list">
+            </ol>
+          </div>
+        </div>
+      </div>
+
+        <!-- Invited Conference Publications -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4><a class="anchor" id="chapter"></a>Book Chapters</h4>
+                    <ol class="publist" id="chapter-list">
+                    </ol>
+                </div>
+            </div>
+        </div>
     </div>
   </body>
 </html>
