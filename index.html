@@ -1,128 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Publications from Mohit Chamania">
-    <meta name="author" content="Mohit Chamania">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mohit Chamania</title>
-    <link rel="stylesheet" href="css/native.css">
-    <script src="./js/index.js"></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" onclick="document.getElementById('navbar').classList.toggle('in')">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-            <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
-          </ul>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mohit Chamania - Home">
+  <meta name="author" content="Mohit Chamania">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohit Chamania</title>
+  <link rel="stylesheet" href="css/native.css">
+  <script src="./js/index.js"></script>
+</head>
+<body>
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="./images/personal.jpg" class="img-circle" alt="Mohit Chamania">
+        <h5 class="profile-name">Mohit Chamania</h5>
+        <small class="profile-title">
+          Site Reliability Engineer, <br/>
+          Google Germany <br/>
+          <b>Email:</b> mchamania [at] google [dot] com
+        </small>
+        <div class="spacersmall">
+            <a href="https://github.com/mohitc" target="_blank" style="font-size: 24px; color: #333; margin-right: 10px;"><i class="fa fa-github"></i></a>
+            <a href="https://scholar.google.com/citations?user=OGBUUooAAAAJ&hl=en&oi=ao" target="_blank" style="font-size: 24px; color: #333;"><i class="fa fa-graduation-cap"></i></a>
         </div>
       </div>
-    </nav>
-    <div class="content">
-      <div class="container">
-        <div class="row">
+      <div class="col-sm-9">
+        I am currently working as a Site Reliability Engineer at Google Germany, focusing on the efficiency and
+        reliability aspects of resource management within Google's datacenters. Previously, I spent 12 years working on
+        the control and optimization of multi-layer networks, both in academia during my PhD and as a software engineer
+        at ADVA Optical Networking.
+        <h4>Affiliations</h4>
+        <div class="row spacersmall">
           <div class="col-sm-3">
-              <img src="./images/personal.jpg" class="img-circle" alt="Mohit Chamania">
-              <h5>Mohit Chamania</h5>
-              <small>
-                Site Reliability Engineer, <br/>
-                Google Germany <br/>
-                <b>Email:</b> mchamania [at] google [dot] com
-              </small>
+            June 2020 - Present
           </div>
           <div class="col-sm-9">
-            I am currently working as a software engineer at ADVA Optical Networking in Berlin, Germany. I completed my undergraduate
-            studies at IIT Bombay, where I received a B.Tech and M.Tech in mechanical engineering in 2007. I received my Ph.D (summa cum laude)
-            in electrical engineering at the Institute of Computer and Network Engineering, TU Braunschweig in 2013 under Prof. Admela Jukan.
-            My areas of interest include control and optimization of multi-layer transport networks, with a special focus on on-line optimization
-            and programmable interactions in multi-layer networks.
-            <h4>Affiliations</h4>
-            <div class="row spacersmall">
-              <div class="col-sm-3">
-                Feb 2014 - present
-              </div>
-              <div class="col-sm-9">
-                Research engineer at ADVA Optical Networking with primarily focusing on service and multilayer topology management.
-              </div>
-            </div>
-            <div class="row spacersmall">
-              <div class="col-sm-3">
-                Feb 2008 - Dec 2013
-              </div>
-              <div class="col-sm-9">
-                Scientific Research staff member at IDA, TU Braunschweig.
-              </div>
-            </div>
+            SWE-SRE at Google Germany focusing on Resource Management.
           </div>
         </div>
-        <div class="row spacer">
+        <div class="row spacersmall">
           <div class="col-sm-3">
-            <h3>Research</h3>
+            Feb 2014 - May 2020
           </div>
           <div class="col-sm-9">
-            <h4>In-flight Encryption</h4>
-            In-flight encryption is an essential component of today's cyber-security infrastructure, and is
-            responsible for encrypting communication between trusted (intermediate) endpoints at different
-            network layers. Work in this area focuses on the abstractions required to define requirements
-            for encryption in a technology-agnostic fashion, and facilitate provisioning at different network
-            layers.
-            <ul class="publist spacersmall" id="enc-list">
-            </ul>
-
-            <h4>IP Optical Integration</h4>
-            <p>The presence of a reconfigurable optical network <i>under</i> presents the possibility to use
-              optical circuits to alleviate transient overloading in IP networks. Contributions to this area
-              include the modeling of IP routing protocols when changing the IP topology (by adding/removing
-              optical paths). The Optical Bypass technique is also propsoed which is a novel mechanism
-              to introduce dynamic optical circuits in IP networks with limited impact on existing routing
-              configurations. Contributions to software architectures to facilitate orchestration in multiple
-              network layers was carried out in the EU Projects <a href="http://ict-one.eu" target="_blank">ONE</a>
-              and <a href="http://acino.eu" target="_blank">ACINO</a>.
-            </p>
-            <ul class="publist spacersmall" id="ipopt-list">
-            </ul>
-            <h4>Path Computation Element</h4>
-            <p>The Path Computation Element is an architectural component to facilitate constrained path computataion.
-              The research focused on the design and development of the first
-              <a href="http://www.opensourcepce.org" target="_blank">open source PCE implementation</a> and contributions
-              to the multi-layer PCE architectures.
-            </p>
-            <ul class="publist" id="pce-list">
-            </ul>
+            Research engineer at ADVA Optical Networking.
           </div>
         </div>
-        <div class="row spacer">
+        <div class="row spacersmall">
           <div class="col-sm-3">
-            <h3>Research Projects</h3>
+            Feb 2008 - Dec 2013
           </div>
           <div class="col-sm-9">
-            <h4>Current Projects</h4>
-            <ul>
-	      <li><a href="https://www.celticplus.eu/project-sendate-secure-dci/" target="_blank">SENDATE</a> Secure Datacenter Interconnects</li>
-	      <li><a href="http://acino.eu" target="_blank">ACINO</a> Application-centric IP/Optical Network Orchestration</li>
-            </ul>
-            <h4>Past Projects</h4>
-            <ul>
-              <li><a href="http://ict-one.eu" target="_blank">ONE</a> Towards Automated Interactions between the
-                Internet and the Carrier-Grade Management Ecosystems (EU STREP)</li>
-              <li>X10 Media Composer (IBM Innovation Award)</li>
-              <li><a href="https://www.celticplus.eu/project-100-get-e3/" target="_blank">100 GET</a> 100 Gb/s Carrier-grade Ethernet (awarded by BMBF)</li>
-            </ul>
+            Scientific Research staff member at IDA, TU Braunschweig.
           </div>
         </div>
       </div>
     </div>
-  </body>
+    <div class="row spacer">
+      <div class="col-sm-3">
+        <h3>Personal Projects</h3>
+      </div>
+      <div class="col-sm-9">
+        <h4><a href="https://github.com/mohitc/LPFramework" target="_blank">Linear Programming Framework</a></h4>
+        <p>
+          A Java/Kotlin framework providing a unified API for modeling mixed-integer linear programs. It abstracts the complexity of different solvers, allowing models to be defined once and solved using various backends including Gurobi, CPLEX, GLPK, SCIP, HIGHS, ojAlgo, and Mosek. The project includes modules for API definition, solver interfaces, file I/O, and native bindings via the Java Foreign Function and Memory (FFM) API.
+        </p>
+      </div>
+    </div>
+    <div class="row spacer">
+      <div class="col-sm-3">
+        <h3>Past Research</h3>
+        <p><a href="publications.html">Full Publication List</a></p>
+      </div>
+      <div class="col-sm-9">
+        <h4>In-flight Encryption</h4>
+        Focused on defining technology-agnostic requirements and provisioning abstractions for multi-layer in-flight
+        encryption to secure communication between trusted endpoints.
+        <ul class="publist spacersmall" id="enc-list">
+        </ul>
+
+        <h4>IP Optical Integration</h4>
+        <p>Investigated using dynamic optical circuits to alleviate IP network overload. Proposed 'Optical Bypass' to
+          introduce optical paths with minimal impact on IP routing. Contributed to multi-layer orchestration
+          architectures in multiple EU Projects.
+        </p>
+        <ul class="publist spacersmall" id="ipopt-list">
+        </ul>
+        <h4>Path Computation Element</h4>
+        <p>Designed and developed the first open source PCE implementation and contributed to multi-layer PCE
+          architectures for constrained path computation.
+        </p>
+        <ul class="publist" id="pce-list">
+        </ul>
+      </div>
+    </div>
+    <div class="row spacer">
+      <div class="col-sm-3">
+        <h3>Past Research Projects</h3>
+      </div>
+      <div class="col-sm-9">
+        <ul>
+          <li><a href="https://www.celticplus.eu/project-sendate-secure-dci/" target="_blank">SENDATE</a> Secure Datacenter Interconnects</li>
+          <li><a href="https://cordis.europa.eu/project/id/645127" target="_blank">ACINO</a> Application-centric IP/Optical Network Orchestration</li>
+          <li><a href="https://cordis.europa.eu/project/id/258300" target="_blank">ONE</a> Towards Automated Interactions between the Internet and the Carrier-Grade Management Ecosystems (EU STREP)</li>
+          <li>X10 Media Composer (IBM Innovation Award)</li>
+          <li><a href="https://www.celticplus.eu/project-100-get-e3/" target="_blank">100 GET</a> 100 Gb/s Carrier-grade Ethernet (awarded by BMBF)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
 </html>
